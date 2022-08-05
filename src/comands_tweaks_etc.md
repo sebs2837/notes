@@ -2,7 +2,9 @@
 
 Useful googling results / solutions for dedicated problems will life here.
 
-## Prevent MacBook from sleep in Battery-Mode aka Clamp-Shell-Mode
+## Tweaks
+
+### Prevent MacBook from sleep in Battery-Mode aka Clamp-Shell-Mode
 
 Disable display sleep and other energy savers in battery mode
 ```shell 
@@ -13,3 +15,11 @@ Enable
 $ sudo pmset disablesleep 0
 ```
 
+### Trick apples security mechanism for downloaded executable
+
+Avoid apple's security restriction for downloaded executables
+
+```shell
+$ cat <file1> > <file2>
+$ chmod +x <file2>
+```
