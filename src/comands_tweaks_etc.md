@@ -17,9 +17,14 @@ $ sudo pmset disablesleep 0
 
 ### Trick apples security mechanism for downloaded executable
 
-Avoid apple's security restriction for downloaded executables
+Avoid apple's security restriction aka quarantine-bit for downloaded executables
+
+```shell
+xattr -d com.apple.quarantine <executable>
+```
 
 ```shell
 $ cat <file1> > <file2>
 $ chmod +x <file2>
 ```
+
