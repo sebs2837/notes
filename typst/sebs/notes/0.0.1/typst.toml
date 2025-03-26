@@ -1,0 +1,11 @@
+[package]
+name = "notes"
+version = "0.0.1"
+entrypoint = "src/lib.typ"
+authors = ["sebs2837"]
+license = "MIT-0"
+categories = ["paper"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
